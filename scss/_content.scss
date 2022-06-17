@@ -1,0 +1,15 @@
+.content{
+  max-width: 500px;
+
+  .container{
+    display: grid;
+    text-align: center;
+
+    .content__title{
+      font-size: 28px;
+      line-height: 38px;
+      margin-bottom: 30px;
+    }
+    .content__copy{}
+  }
+}

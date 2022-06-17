@@ -26,6 +26,22 @@
   font-style: normal;
 }
 
+.content {
+  max-width: 500px;
+}
+
+.content .container {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.content .container .content__title {
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +58,7 @@ body {
   max-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
+  padding-top: 100px;
   background-image: url("/img/bg-intro-mobile.png");
   background-repeat: repeat-y;
   background-color: #ff7978;

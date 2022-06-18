@@ -75,4 +75,13 @@ body {
   max-width: 1155px;
   margin: 0 auto;
 }
+
+.intro__component__card {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid;
+}
 /*# sourceMappingURL=style.css.map */

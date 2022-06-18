@@ -62,3 +62,8 @@ body{
   max-width: 1155px;
   margin: 0 auto;
 }
+.intro__component__card{
+  display: grid;
+  justify-content: center;
+  border: 1px solid;
+}
